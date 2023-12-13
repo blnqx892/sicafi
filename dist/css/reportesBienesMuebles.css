@@ -1,0 +1,103 @@
+:root {
+  --color-black: #000000;
+  --color-blue: #066D9B;
+  --font-family: sans-serif;
+}
+.membrete{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 0px;
+}
+.textoMembrete{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.logoAlcaldia{
+ width: 120px;
+ height: 120px;
+}
+
+p{
+  text-align: center;
+  margin: 0px;
+}
+.titulos{
+  font-size: 18px;
+  font-family: var(--font-family);
+}
+.titulo{
+  font-size: 14px;
+  font-family: var(--font-family);
+}
+.logoNacional{
+  width: 100px;
+  height: 100px;
+}
+.posiciontabla{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.tablaCargoBienes{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--color-blue);
+  border-radius: 8px
+}
+.tablaDescargo{
+  width: 800px;
+  display: flex;
+  justify-content: left;
+  border: 1px solid var(--color-blue);
+  border-radius: 8px
+}
+.tituloVehiculo{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.tablaInfoVehiculos{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--color-blue);
+  border-radius: 8px
+}
+
+.infoTitulosVehiculo{
+  color:var(--color-black);
+  font-size:125%;
+}
+th,td {
+  padding: 5px;
+}
+table th {
+  text-align: center;
+}
+.tituloG{
+  width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+.posicionTC{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.tablaC{
+  border: 1px solid var(--color-blue);
+  border-radius: 8px
+}
+.bor{
+  border: 1px solid;
+  border: 1px solid var(--color-blue);
+  border-radius: 8px;
+}

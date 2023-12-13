@@ -1,0 +1,50 @@
+/* Estilos para pantalla */
+body {
+  font-size: 14px;
+  color: #333;
+}
+table td{
+  width: 33%;
+}
+.tableKardex thead{
+  background-color: aliceblue;
+}
+.tableKardex{
+  margin-top: 2rem;
+}
+.tableKardex th, .tableKardex td {
+  width: 16.666%;
+  text-align: center;
+  padding: 8px 0px;
+}
+
+.formato-membrete{
+  display: flex;
+  justify-content: space-between;
+}
+.membrete{
+  display: flex;  flex-direction: column; align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.codigo-tarjeta{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.css-buttons{
+  padding-top: 2rem;
+  display: flex;
+    justify-content: space-between;
+}
+/* Estilos específicos para impresión */
+@media print {
+  body {
+      font-size: 12pt;
+      color: #000;
+  }
+
+  /* Agrega más estilos específicos para impresión según sea necesario */
+}

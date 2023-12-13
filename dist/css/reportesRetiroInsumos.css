@@ -1,0 +1,38 @@
+.position_table{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #066D9B;
+}
+.table_informacion{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 1000px;
+  border-radius: 8px;
+  border: 1px solid #066D9B;
+}
+
+.element {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 1000px;
+  border-radius: 10px;
+  border: 1px solid #066D9B;
+}
+.table_inf{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 560px;
+  border-radius: 8px;
+  border: 1px solid #066D9B;
+}
+.table_in{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 600px;
+  border-radius: 8px;
+  border: 1px solid #066D9B;
+}
+.element
+{
+  left: -10px;
+}
